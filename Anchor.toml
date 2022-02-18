@@ -1,0 +1,12 @@
+[programs.mainnet]
+mymoneydapp = "97m9yX1LtHkBe5FVq6x8ZC7n6zVgNSq9dTdcALetuwNd"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "/Users/arvindkrishnan/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.js"
